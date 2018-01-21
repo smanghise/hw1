@@ -1,24 +1,12 @@
-function downSevenTimes {
-down
-down
-down
-down
-down
-down
-down
+function move(steps,direction) {
+  var count = 0
+  while (count<steps) {
+    direction
+   count = count + 1
+  }
 }
 
-function rightFiveTimes {
-right
-right
-right
-right
-right
-}
-
-downSevenTimes
-rightFiveTimes
-up
-up
-right
-right
+move(7,down)
+move(5,right)
+move(2,up)
+move(2,right)
