@@ -7,10 +7,10 @@ if (getColor == "red") {
     left
     up
   }
- else {
+  else {
     right
     up
-}   
+ }   
 }
 
 else {
@@ -22,7 +22,7 @@ else {
     down
   }       
  else {
-  right
-  down
+    right
+    down
  }
 }
