@@ -1,8 +1,12 @@
 function UporDown {
   if (getColor == "blue") {
     down
+    right
+    right
   } else {
     up
+    right
+    right
   }
 }
 
@@ -11,11 +15,9 @@ function RightTwoTimes {
   right
 }
 
-RightTwoTimes
+right
+right
 UporDown
-RightTwoTimes
 UporDown
-RightTwoTimes
 UporDown
-RightTwoTimes
 right
