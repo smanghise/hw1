@@ -1,10 +1,3 @@
-function downEightTimes {
-  var steps = 0
-  while (steps < 8) {
-   down
-    steps = steps + 1
-  }
-}
 
 function downSevenTimes {
   var steps = 0
@@ -27,7 +20,8 @@ function rightTwoTimes {
   right
 }
 
-downEightTimes
+down
+downSevenTimes
 rightTwoTimes
 upSevenTimes
 rightTwoTimes
