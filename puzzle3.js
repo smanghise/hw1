@@ -1,12 +1,15 @@
-down
-down
+function move(steps,direction) {
+  var count = 0
+  while (count<steps) {
+    direction
+   count = count + 1
+  }
+}
+
+move(2,down)
 var firstColorSeen = getColor
-down
-down
-down
-right
-right
+move(3,down)
+move(2,right)
 setColor(firstColorSeen)
-right
-right
+move(2,right)
 up
