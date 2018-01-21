@@ -1,33 +1,18 @@
-
-function downSevenTimes {
-  var steps = 0
-  while (steps < 7) {
-   down
-    steps = steps + 1
+function move(steps,direction) {
+  var count = 0
+  while (count<steps) {
+    direction
+   count = count + 1
   }
 }
 
-function upSevenTimes {
-  var steps = 0
-  while (steps < 7) {
-   up
-    steps = steps + 1
-  }
-}
-
-function rightTwoTimes {
-  right
-  right
-}
-
-down
-downSevenTimes
-rightTwoTimes
-upSevenTimes
-rightTwoTimes
-downSevenTimes
-rightTwoTimes
-upSevenTimes
-rightTwoTimes
-downSevenTimes
+move(8,down)
+move(2,right)
+move(7,up)
+move(2,right)
+move(7,down)
+move(2,right)
+move(7,up)
+move(2,right)
+move(7,down)
 right
