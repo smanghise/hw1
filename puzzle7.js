@@ -1,6 +1,9 @@
-function rightTwoTimes {
-  right
-  right
+function move(steps,direction) {
+  var count = 0
+  while (count<steps) {
+    direction
+   count = count + 1
+  }
 }
 
 function DownIfNotRed {
@@ -16,12 +19,12 @@ function UpIfNotRed {
 }
 
 DownIfNotRed
-rightTwoTimes
+move(2,right)
 UpIfNotRed
-rightTwoTimes
+move(2,right)
 DownIfNotRed
-rightTwoTimes
+move(2,right)
 UpIfNotRed
-rightTwoTimes
+move(2,right)
 DownIfNotRed
 right
