@@ -10,11 +10,6 @@ function UporDown {
   }
 }
 
-function RightTwoTimes {
-  right
-  right
-}
-
 right
 right
 UporDown
