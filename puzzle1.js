@@ -1,8 +1,6 @@
 function move(steps,direction) {
-  var count = 0
-  while (count<steps) {
+  while (steps>0) {
     direction
-   count = count + 1
   }
 }
 
